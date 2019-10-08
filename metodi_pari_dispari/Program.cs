@@ -37,6 +37,7 @@ namespace metodi_pari_dispari
 
         public static void NumeriDispari()
         {
+
             for (int i = 0; i <= 200; i++)
             {
                 if (i % 2 != 0)
@@ -44,6 +45,7 @@ namespace metodi_pari_dispari
                     Console.Write(i + " ");
                 }
             }
+
         }
 
     }
